@@ -55,7 +55,7 @@ public class GameManager : MonoBehaviour
         catobj.gameObject.SetActive(false);
         score = 0;
         SetScore();
-        playerLives["Cat1(Clone)"] = 3;
+        playerLives["Cat(Clone)"] = 3;
         playerLives["Cat2(Clone)"] = 3;
         Case("lose");
     }
